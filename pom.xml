@@ -4,7 +4,7 @@
     
     <groupId>mchtr.test</groupId>
     <artifactId>Maven_Test</artifactId>
-    <version>0.0.1a</version>
+    <version>0.0.1b</version>
     <packaging>jar</packaging>
     
     
@@ -14,6 +14,25 @@
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
     
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derby</artifactId>
+            <version>10.8.3.0</version>
+        </dependency> 
+        
+        <!-- Apache POI to manipulating and creating Excel documents -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.9</version> <!--3.9 może -->
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.9</version>
+        </dependency>
+    </dependencies>
     
     
     
