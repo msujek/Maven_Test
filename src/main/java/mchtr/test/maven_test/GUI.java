@@ -37,11 +37,12 @@ public class GUI extends JFrame {
         p1.add(b1, BorderLayout.SOUTH);
         tabPane.add(p1, "1st Tab");
         setLayout(new BorderLayout());
-        add(tabPane, BorderLayout.CENTER);
+        add(tabPane);
         
-        setSize(800,600);
+        
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(800,600);
         setVisible(true);
-        pack();
+        //pack();
     }    
 }
